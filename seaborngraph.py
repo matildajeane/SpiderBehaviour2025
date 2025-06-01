@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-file_path = r"C:\Users\matil\OneDrive - LA TROBE UNIVERSITY\spidertimes.xlsx" 
+file_path = r"C:\Users\Documents\spidertimes.xlsx"  #edited for privacy
 df = pd.read_excel(file_path)
 
 
