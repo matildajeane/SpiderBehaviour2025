@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-file_path = r"C:\Users\matil\OneDrive - LA TROBE UNIVERSITY\spidertimes.xlsx"  
+file_path = r"C:\Users\User\Documents\spidertimes.xlsx"  #edited for privacy.
 df = pd.read_excel(file_path)
 
 filtered_df = df.dropna(subset=["Visual", "Audio", "Both"], how='all')
