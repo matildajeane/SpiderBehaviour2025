@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file_path = r"C:\Users\matil\OneDrive - LA TROBE UNIVERSITY\spidertimes.xlsx"  
+file_path = r"C:\Users\Documents\spidertimes.xlsx"  #edited for privacy  
 df = pd.read_excel(file_path)
 
 null_counts = df[["Visual", "Both", "Audio"]].isnull().sum()
